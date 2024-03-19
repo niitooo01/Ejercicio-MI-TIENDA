@@ -1,0 +1,57 @@
+.mosaico {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.item {
+    flex-basis: calc(25% - 20px); 
+    text-align: center;
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.title {
+    flex-grow: 1; 
+    text-align: center;
+}
+
+.botonheader {
+    text-align: right;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.footerh1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+
+.footerh2 {
+    margin: 5px 0 0 0;
+    font-size: 18px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+
